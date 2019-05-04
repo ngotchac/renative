@@ -1,5 +1,5 @@
 {
-  "name": "react-native-vanilla",
+  "name": "renative",
   "title": "React Native Vanilla",
   "version": "0.20.4",
   "codename": "Ghostbuster",
@@ -44,13 +44,13 @@
     "email": "i@pavjacko.com",
     "url": "https://github.com/pavjacko"
   },
-  "homepage": "https://github.com/pavjacko/react-native-vanilla#readme",
+  "homepage": "https://github.com/pavjacko/renative#readme",
   "bugs": {
-    "url": "https://github.com/pavjacko/react-native-vanilla/issues"
+    "url": "https://github.com/pavjacko/renative/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pavjacko/react-native-vanilla.git"
+    "url": "git://github.com/pavjacko/renative.git"
   },
   "contributors": [
     "Sander Looijenga <https://github.com/sanderlooijenga>",

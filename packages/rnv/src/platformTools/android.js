@@ -275,7 +275,7 @@ const getEmulatorName = async (words) => {
     const port = emulator.split('-')[1];
     // Use telnet or nc, whichever is available
     let command = commandExistsSync('nc') ? 'nc' : null;
-    if (commandExistsSync('telnet')) command = 'telnet';
+    if (!command && commandExistsSync('telnet')) command = 'telnet';
 
     if (!command) throw new Error('You must have nc or telnet installed');
 
